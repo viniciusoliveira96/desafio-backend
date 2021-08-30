@@ -1,0 +1,2 @@
+class Parlamentare < ApplicationRecord
+end

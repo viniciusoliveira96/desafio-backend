@@ -1,0 +1,67 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  txNomeParlamentar: MyString
+  cpf: MyString
+  ideCadastro: MyString
+  nuCarteiraParlamentar: MyString
+  nuLegislatura: MyString
+  sgUF: MyString
+  sgPartido: MyString
+  codLegislatura: MyString
+  numSubCota: MyString
+  txtDescricao: MyString
+  numEspecificacaoSubCota: MyString
+  txtDescricaoEspecificacao: MyString
+  txtFornecedor: MyString
+  txtCNPJCPF: MyString
+  txtNumero: MyString
+  indTipoDocumento: MyString
+  datEmissao: MyString
+  vlrDocumento: MyString
+  vlrGlosa: MyString
+  vlrLiquido: MyString
+  numMes: MyString
+  numAno: MyString
+  numParcela: MyString
+  txtPassageiro: MyString
+  txtTrecho: MyString
+  numLote: MyString
+  numRessarcimento: MyString
+  vlrRestituicao: MyString
+  nuDeputadoId: MyString
+  ideDocumento: MyString
+  urlDocumento: MyString
+
+two:
+  txNomeParlamentar: MyString
+  cpf: MyString
+  ideCadastro: MyString
+  nuCarteiraParlamentar: MyString
+  nuLegislatura: MyString
+  sgUF: MyString
+  sgPartido: MyString
+  codLegislatura: MyString
+  numSubCota: MyString
+  txtDescricao: MyString
+  numEspecificacaoSubCota: MyString
+  txtDescricaoEspecificacao: MyString
+  txtFornecedor: MyString
+  txtCNPJCPF: MyString
+  txtNumero: MyString
+  indTipoDocumento: MyString
+  datEmissao: MyString
+  vlrDocumento: MyString
+  vlrGlosa: MyString
+  vlrLiquido: MyString
+  numMes: MyString
+  numAno: MyString
+  numParcela: MyString
+  txtPassageiro: MyString
+  txtTrecho: MyString
+  numLote: MyString
+  numRessarcimento: MyString
+  vlrRestituicao: MyString
+  nuDeputadoId: MyString
+  ideDocumento: MyString
+  urlDocumento: MyString

@@ -1,0 +1,52 @@
+<h1>Importação</h1>
+<form action="/csv/importar" enctype="multipart/form-data" method="post">
+  <fieldset>
+    <legend>Arquivo</legend>
+    <input type="file" class="form-control" name="csv"><br>
+    <input type="submit" class="btn btn-primary" name="Enviar"> 
+  </fieldset>
+</form>
+
+<hr>
+<h2>Despesas do Parlamentar</h2>
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">UF</th>
+                <th scope="col">Nome do Parlamentar</th>
+                <th scope="col">CPF</th>
+            </tr>
+        </thead>
+    <tbody>
+        <% @parlamentares.each do |parlamentar| %>
+            <tr class="">
+                <td><%= parlamentar.sgUF %></td>
+                <td><%= parlamentar.txNomeParlamentar %></td>
+                <td><%= parlamentar.datEmissao %></td>
+            </tr>
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Data Emissão</th>
+                        <th scope="col">Estabelecimento</th>
+                        <th scope="col">Valor</th>
+                        <th scope="col">Link Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td><%= parlamentar.datEmissao %></td>
+                        <td><%= parlamentar.txtFornecedor %></td>
+                        <td><%= parlamentar.vlrLiquido %></td>
+                        <td><%= parlamentar.urlDocumento %></td>
+                    </tr>
+                </tbody>
+            </table>
+        <% end %>
+    </tbody>
+    </table>
+</div>
+
+
+
